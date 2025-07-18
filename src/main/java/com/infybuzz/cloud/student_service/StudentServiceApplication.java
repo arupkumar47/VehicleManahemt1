@@ -12,7 +12,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EntityScan("com.infybuzz.cloud.student_service.entity")
 @EnableJpaRepositories("com.infybuzz.cloud.student_service.repository")
 
-public class StudentServiceApplication {
+public class StudentServiceApplication{
 
 	public static void main(String[] args) {
 		SpringApplication.run(StudentServiceApplication.class, args);
